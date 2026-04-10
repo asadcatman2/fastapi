@@ -6,7 +6,7 @@ from passlib.context import CryptContext
 import user_models, user_schemas
 from database import SessionLocal
 
-SECRET_KEY = "your-super-secret-key-change-this-in-production"
+SECRET_KEY = "lalala"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
